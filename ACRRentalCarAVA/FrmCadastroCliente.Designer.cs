@@ -119,6 +119,7 @@
             this.btnIncluir.TabIndex = 8;
             this.btnIncluir.Text = "Incluir";
             this.btnIncluir.UseVisualStyleBackColor = true;
+            this.btnIncluir.Click += new System.EventHandler(this.btnIncluir_Click);
             // 
             // btnAlterar
             // 
@@ -128,6 +129,7 @@
             this.btnAlterar.TabIndex = 9;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnExcluir
             // 
@@ -137,6 +139,7 @@
             this.btnExcluir.TabIndex = 10;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnFechar
             // 
@@ -146,6 +149,7 @@
             this.btnFechar.TabIndex = 11;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // btnConsultar
             // 
@@ -155,6 +159,7 @@
             this.btnConsultar.TabIndex = 12;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // FrmCadastroCliente
             // 
@@ -177,6 +182,7 @@
             this.Controls.Add(this.lblCodigo);
             this.Name = "FrmCadastroCliente";
             this.Text = "Cadastro de Cliente";
+            this.Load += new System.EventHandler(this.FrmCadastroCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,13 +191,13 @@
         #endregion
 
         private System.Windows.Forms.Label lblCodigo;
-        private System.Windows.Forms.TextBox txtCodigo;
+        public System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.Label lblCPF;
-        private System.Windows.Forms.MaskedTextBox mskCPF;
+        public System.Windows.Forms.MaskedTextBox mskCPF;
         private System.Windows.Forms.Label lblDtNasc;
-        private System.Windows.Forms.MaskedTextBox mskDtNasc;
+        public System.Windows.Forms.MaskedTextBox mskDtNasc;
         private System.Windows.Forms.Label lblNome;
-        private System.Windows.Forms.TextBox txtNome;
+        public System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Button btnIncluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnExcluir;

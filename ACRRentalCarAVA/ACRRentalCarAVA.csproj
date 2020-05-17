@@ -47,11 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexao.cs" />
-    <Compile Include="DB_RENTALCARDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DB_RENTALCARDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,17 +85,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="DB_RENTALCARDataSet.xsc">
-      <DependentUpon>DB_RENTALCARDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DB_RENTALCARDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DB_RENTALCARDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DB_RENTALCARDataSet.xss">
-      <DependentUpon>DB_RENTALCARDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

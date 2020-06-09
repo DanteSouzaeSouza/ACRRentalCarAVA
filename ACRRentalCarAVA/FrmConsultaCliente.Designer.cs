@@ -55,7 +55,6 @@
             this.btnSelecionar.TabIndex = 2;
             this.btnSelecionar.Text = "Selecionar";
             this.btnSelecionar.UseVisualStyleBackColor = true;
-            this.btnSelecionar.Click += new System.EventHandler(this.btnSelecionar_Click);
             // 
             // btnCancelar
             // 
@@ -65,7 +64,6 @@
             this.btnCancelar.TabIndex = 3;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // FrmConsultaCliente
             // 
@@ -77,7 +75,6 @@
             this.Controls.Add(this.dgvCliente);
             this.Name = "FrmConsultaCliente";
             this.Text = " Consulta de Cliente";
-            this.Load += new System.EventHandler(this.FrmConsultaCliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCliente)).EndInit();
             this.ResumeLayout(false);
 
